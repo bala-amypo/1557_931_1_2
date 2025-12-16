@@ -13,7 +13,7 @@ public class Event {
     private LocalDate createdOn;
     private boolean isPublic;
     public Event(){
-        
+
     }
     public Event(String title, String description, String category, LocalDate startTime, LocalDate endTime,
             User organizer, LocalDate createdOn, boolean isPublic) {
